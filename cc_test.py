@@ -9,7 +9,7 @@ from mpl_toolkits.mplot3d import Axes3D
 from fitnessfunction import function3
 from tqdm import tqdm
 
-# test
+# test (use function2)
 print("GO...")
 ccpso2 = CCPSO2(function2, 20, 1000)
 result = ccpso2.evolve()
